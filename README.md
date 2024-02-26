@@ -1,7 +1,7 @@
 # Fair-C45
 1. This repository is the implementation of Multiple Fairness Criteria in Decision Tree Learning.
 2. Each folder, which has been named by the name of dataset, has codes and dataset.
-3. In each folder, each """.py""" files are named with name of dataset, sensitive feature and name of the algorithm.
+3. In each folder, each ".py" files are named with name of dataset, sensitive feature and name of the algorithm.
    For example;
 ADULT_RACE_LEXICOGRAPHIC.py: the code is for Lexicographic based Fair-C4.5, sensitive attribute is 'Race', and run on Adult dataset.
 ADULT_RACE_C4.5: the code has base C4.5 algorithm, will run on Adult dataset. Sensistive attribute is 'Race'.
@@ -38,14 +38,17 @@ ADULT_RACE_C4.5: the code has base C4.5 algorithm, will run on Adult dataset. Se
     Sensitive features: Gender
 
 # To run the codes, 
-1. As a first way, download .py files that start with same name and the relevant dataset in the same folder. For example, download .py files and dataset in ADULT file to same folder in your computer. Then, load the .py file on any text editor. To run the code, firstly open command promt on the folder path and run following line on the promt.
+1. As a first way, for each dataset, download ".py" files and relevant dataset in the same folder. For instance, For example, in the Adult folder, download ".py" files and dataset in the same folder on your computer. Then, on your computer, load the ".py" file on any text editor. To run the code, first open the command prompt on the folder path and run the following line on the prompt.
+   
 ```python ADULT_AGE_C45.py``` and ```python ADULT_GENDER_LEXICOGRAPHIC_C45.py```
-'''
 
-repeat the process for all codes. Please note that the codes that has been named with their dataset and relevant dataset should be in same folder. Similar way how I created here.
 
-2. Second way is the using Jyputer notebook in ANACONDA. Just copy and paste the all lines of code on notebook, then run.
+Repeat the same process for all codes and datasets. For each dataset, you can create a different folder that will have relevant dataset and codes.
 
+2. The second way is using a Jyputer notebook in ANACONDA. Just copy and paste the all lines of code on the notebook, after uploading the dataset into the same path ith the code, then run.
+   
+# To run the FFTree codes, 
+To run the FFTree implementations, follow the same steps in the previous section. However, if you want to see the results of different thresholds (e.g. 0, 0.05, 0.1, 0.2), you need to change the threshold, which is defined as 'th = ' under the "ff_tree" function in the "FFTree" named code files. For instance, "DUTCH_FFTREE.py" or "LAW_RACE_FFTREE" represent the implementations of FFTree. In these types of files, you can change the threshold (th=) under the "ff_tree" function. In our implementation, "th=0.2" is already defined.
 # REFERENCES
 [1] M. Feldman, S. A. Friedler, J. Moeller, C. Scheidegger, and S. Venkatasubramanian, “Certifying and Removing Disparate Impact *,” DOI: 10 . 1145 / 2766XXX .XXXXXXX. [Online]. Available: http : / / dx . doi . org /10.1145/2766XXX.XXXXXXX.
 
