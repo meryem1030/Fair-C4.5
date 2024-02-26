@@ -8,34 +8,35 @@ ADULT_RACE_C4.5: the code has base C4.5 algorithm, will run on Adult dataset. Se
 5. Note: Results can be little different for Lexicographic and GRXFR models because of random attribute choose.
 
 # Datasets:
+The datasets and their sensitive feature are described. The source of the datasets and where these datasets are used in literature were also added. More details can be found in References.
 1. ADULT: [1],[2],[3],[4],[5]
-   Sensitive features: Gender, Race and Age
+    (Sensitive features: Gender, Race and Age)
 2. GERMAN: [1],[3],[6]
-   Sensitive features: Gender and Age
+    (Sensitive features: Gender and Age)
 3. PROPUBLICA: [3],[7]
-   Sensitive features: Gender and Race
+    (Sensitive features: Gender and Race)
 4. PROPUBLICA VIOLENT:[3],[7]
-   Sensitive features: Gender and Race
+    (Sensitive features: Gender and Race)
 5. RICCI: [3],[6]
-   Sensitive features: Race
+    (Sensitive features: Race)
 6. WINE : [8]
-   Sensitive features: Type
+    (Sensitive features: Type)
 7. STUDENT MATH PERFORMANCE: [2],[9]
-   Sensitive features: Gender and Age
+    (Sensitive features: Gender and Age)
 8. STUDENT PORTUGUESE PERFORMANCE: [2],[9]
-   Sensitive features: Gender and Age
+    (Sensitive features: Gender and Age)
 9. DRUG : [10],[11]
-    Sensitive features: Gender and Race
+    (Sensitive features: Gender and Race)
 10. BANK: [12],[13],[14]
-    Sensitive features: Age
+    (Sensitive features: Age)
 11. SQF: [15],[16],[17]
-    Sensitive features: Gender and Race
+    (Sensitive features: Gender and Race)
 12. LAW SCHOOL: [18],[19]
-    Sensitive features: Race
+    (Sensitive features: Race)
 13. DUTCH: [20]
-    Sensitive features: Gender
+    (Sensitive features: Gender)
 14. UFRGS: [21]
-    Sensitive features: Gender
+    (Sensitive features: Gender)
 
 # To run the codes, 
 1. As a first way, for each dataset, download ".py" files and relevant dataset in the same folder. For instance, For example, in the Adult folder, download ".py" files and dataset in the same folder on your computer. Then, on your computer, load the ".py" file on any text editor. To run the code, first open the command prompt on the folder path and run the following line on the prompt.
