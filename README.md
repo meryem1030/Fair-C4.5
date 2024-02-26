@@ -1,26 +1,41 @@
 # Fair-C45
 1. This repository is the implementation of Multiple Fairness Criteria in Decision Tree Learning.
 2. Each folder, which has been named by the name of dataset, has codes and dataset.
-3. In each folder, name of each algorithm has been added at the end of .py file. 
-4. Note: Results can be little different for Lexicographic and GRXFR models because of random attribute choose.
-For example;
-ADULT_RACE_LEXICOGRAPHIC.py: the code is Lexicographic algorithm, sensitive attribute is 'Race', and run on Adult dataset.
+3. In each folder, each """.py""" files are named with name of dataset, sensitive feature and name of the algorithm.
+   For example;
+ADULT_RACE_LEXICOGRAPHIC.py: the code is for Lexicographic based Fair-C4.5, sensitive attribute is 'Race', and run on Adult dataset.
 ADULT_RACE_C4.5: the code has base C4.5 algorithm, will run on Adult dataset. Sensistive attribute is 'Race'.
+5. Note: Results can be little different for Lexicographic and GRXFR models because of random attribute choose.
+
 # Datasets:
 1. ADULT: [1],[2],[3],[4],[5]
+   Sensitive features: Gender, Race and Age
 2. GERMAN: [1],[3],[6]
+   Sensitive features: Gender and Age
 3. PROPUBLICA: [3],[7]
+   Sensitive features: Gender and Race
 4. PROPUBLICA VIOLENT:[3],[7]
+   Sensitive features: Gender and Race
 5. RICCI: [3],[6]
+   Sensitive features: Race
 6. WINE : [8]
+   Sensitive features: Type
 7. STUDENT MATH PERFORMANCE: [2],[9]
+   Sensitive features: Gender and Age
 8. STUDENT PORTUGUESE PERFORMANCE: [2],[9]
+   Sensitive features: Gender and Age
 9. DRUG : [10],[11]
+    Sensitive features: Gender and Race
 10. BANK: [12],[13],[14]
+    Sensitive features: Age
 11. SQF: [15],[16],[17]
+    Sensitive features: Gender and Race
 12. LAW SCHOOL: [18],[19]
+    Sensitive features: Race
 13. DUTCH: [20]
+    Sensitive features: Gender
 14. UFRGS: [21]
+    Sensitive features: Gender
 
 # To run the codes, 
 1. As a first way, download .py files that start with same name and the relevant dataset in the same folder. For example, download .py files and dataset in ADULT file to same folder in your computer. Then, load the .py file on any text editor. To run the code, firstly open command promt on the folder path and run following line on the promt.
