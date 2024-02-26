@@ -1,11 +1,11 @@
 # Fair-C45
 1. This repository is the implementation of Multiple Fairness Criteria in Decision Tree Learning.
-2. Each folder, which has been named by the name of dataset, has codes and dataset.
-3. In each folder, each ".py" files are named with name of dataset, sensitive feature and name of the algorithm.
+2. Each folder, which has been named by the name of the dataset, has codes and a dataset.
+3. In each folder, each ".py" files are named with the name of the dataset, sensitive feature and name of the algorithm.
    For example;
-ADULT_RACE_LEXICOGRAPHIC.py: the code is for Lexicographic based Fair-C4.5, sensitive attribute is 'Race', and run on Adult dataset.
-ADULT_RACE_C4.5: the code has base C4.5 algorithm, will run on Adult dataset. Sensistive attribute is 'Race'.
-5. Note: Results can be little different for Lexicographic and GRXFR models because of random attribute choose.
+ADULT_RACE_LEXICOGRAPHIC.py: the code is for Lexicographic based Fair-C4.5, the sensitive attribute is 'Race', and run on an Adult dataset.
+ADULT_RACE_C4.5: the code has a base C4.5 algorithm and will run on the Adult dataset. The sensitive attribute is 'Race'.
+5. Note: Results can be a little different for Lexicographic and GRXFR models because of random attribute choices.
 
 # Datasets:
 The datasets and their sensitive feature are described. The source of the datasets and where these datasets are used in literature were also added. More details can be found in References.
